@@ -1,0 +1,114 @@
+[
+  {
+    "question": "1. Can a user save all database updates in onStop ()?",
+    "answer1": "Yes, a user can save all database updates in onStop().",
+    "answer2": "Due to low memory problem. your application will close before reaching onStop()",
+    "answer3": "No, a user can save in a Bundle()",
+    "correctAnswer": 1
+  },
+  {
+    "question": "2.What are the layouts available in android?",
+    "answer1": "Linear Layout",
+    "answer2": "Frame Layout",
+    "answer3": "Both are Correct",
+    "correctAnswer": 1
+  },
+  {
+    "question": "3. Which of these targets does Kotlin currently not support",
+    "answer1": "LLVM",
+    "answer2": ".NET CLR",
+    "answer3": "JVM",
+    "correctAnswer": 1
+  },
+  {
+    "question": "4. How to store heavy structured data in android?",
+    "answer1": "SQlite database",
+    "answer2": "Shared Preferences",
+    "answer3": "Cursor",
+    "correctAnswer": 0
+  },
+  {
+    "question": "5. The ________ file specifies the layout of your screen. ",
+    "answer1": "Layout file",
+    "answer2": "Manifest file",
+    "answer3": "Strings XML",
+    "correctAnswer": 2
+  },
+  {
+    "question": "6. How many ports are allocated for new emulator",
+    "answer1": "2",
+    "answer2": "0",
+    "answer3": "10",
+    "correctAnswer": 0
+  },
+  {
+    "question": "7. Does Kotlin have primitive data types, such as int, long, float?",
+    "answer1": "No, Kotlin does not have nor use primitive data types",
+    "answer2": "Yes, Kotlin is similar to Java in this respect",
+    "answer3": "No, not at language level. But the Kotlin compiler makes use of JVM primitive for best performance",
+    "correctAnswer": 2
+  },
+  {
+    "question": "8. What are the JSON elements in android?",
+    "answer1": "integer, boolean",
+    "answer2": "boolean",
+    "answer3": "Number, string, boolean, null, array, and object",
+    "correctAnswer": 2
+
+
+
+
+  },
+  {
+    "question": "9. What does the .APK extension stand for",
+    "answer1": "Application Package",
+    "answer2": "Application Program Kit",
+    "answer3": "Android Proprietary Kit",
+    "correctAnswer": 1
+  },
+  {
+    "question": "10.What operating system is used as the base of the Android stack? ",
+    "answer1": "Linux",
+    "answer2": "Windows",
+    "answer3": "XML",
+    "correctAnswer": 0
+  },
+  {
+    "question": "11. What does the !! operator do?",
+    "answer1": "It converts any value to a non-null type and throws an exception if the value is in fact null",
+    "answer2": "It's the modulo operator in Kotlin, similar to Java's %",
+    "answer3": "it compares two values for identify rather than equality",
+    "correctAnswer": 0
+  },
+  {
+    "question": "12.  When did Google purchase Android?",
+    "answer1": "2007",
+    "answer2": "2005",
+    "answer3": "2008",
+    "correctAnswer": 1
+
+  },
+  {
+    "question": "13. Under which license is Kotlin available?",
+    "answer1": "MIT",
+    "answer2": "Apache 2",
+    "answer3": "GPL",
+    "correctAnswer": 1
+  },
+  {
+    "question": "14. An open source standalone database",
+    "answer1": "SQLite",
+    "answer2": "BackupHelper",
+    "answer3": "NetworkInfo",
+    "correctAnswer": 0
+  },
+  {
+    "question": "15. Can a class be immutable in android?",
+    "answer1": " No, it can't",
+    "answer2": "Yes, Class can be immutable",
+    "answer3": "Can't make the class as final class",
+    "correctAnswer": 1
+  }
+
+
+]

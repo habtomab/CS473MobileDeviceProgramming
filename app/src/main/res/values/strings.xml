@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CS473 Mobile Device Programming</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">next</string>
+    <string name="home">home</string>
+    <string name="try_again">tryagain</string>
+    <string name="result_analysis">resultanalysis</string>
+</resources>

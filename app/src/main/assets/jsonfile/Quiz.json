@@ -1,0 +1,107 @@
+[
+  {
+    "question": "1. What is the difference between val and var in Kotlin?",
+    "answer1": "Variables declared with val are final, those with var are not.",
+    "answer2": "Variable declared with val can only access const members",
+    "answer3": "Variables declared with var are final, those with val are not.",
+    "correctAnswer": 0
+  },
+  {
+    "question": "2. What does a data class not offer?",
+    "answer1": "Automatic conversion from/to JSON",
+    "answer2": "Auto-generated toString() method",
+    "answer3": "A generated copy(...) method, to create copies of instances",
+    "correctAnswer": 0
+  },
+  {
+    "question": "3. Which of these targets does Kotlin currently not support",
+    "answer1": "LLVM",
+    "answer2": ".NET CLR",
+    "answer3": "JVM",
+    "correctAnswer": 1
+  },
+  {
+    "question": "4. What are Kotlin coroutines",
+    "answer1": "They provide asynchronous code without thread blocking",
+    "answer2": "That's how the automatically generated methods hashCode() and equals() is data classes are called",
+    "answer3": "These are functions which accept other functions as arguments or return them",
+    "correctAnswer": 0
+  },
+  {
+    "question": "5. What is the correct way to declare a variable of integer type in Kotlin",
+    "answer1": "int i = 42",
+    "answer2": "var i : int = 42",
+    "answer3": "var i : Int 42",
+    "correctAnswer": 2
+  },
+  {
+    "question": "6. What is the correct syntax to convert the String \"42\" to a Long in Kotlin",
+    "answer1": "val l: Long = \"42\".toLong()",
+    "answer2": "val l: Long = (Long)\"42\"",
+    "answer3": "val l: Long = <Long>\"42\"",
+    "correctAnswer": 0
+  },
+  {
+    "question": "7. Does Kotlin have primitive data types, such as int, long, float?",
+    "answer1": "No, Kotlin does not have nor use primitive data types",
+    "answer2": "Yes, Kotlin is similar to Java in this respect",
+    "answer3": "No, not at language level. But the Kotlin compiler makes use of JVM primitive for best performance",
+    "correctAnswer": 2
+  },
+  {
+    "question": "8. Android applications must be signed",
+    "answer1": "After they are installed",
+    "answer2": "Before they are installed",
+    "answer3": "Within tow weeks of installation",
+    "correctAnswer": 1
+  },
+  {
+    "question": "9. What does the .APK extension stand for",
+    "answer1": "Application Package",
+    "answer2": "Application Program Kit",
+    "answer3": "Android Proprietary Kit",
+    "correctAnswer": 1
+  },
+  {
+    "question": "10. Which is a valid function declaration in Kotlin?",
+    "answer1": "int sum(int a, int b)",
+    "answer2": "fun sum(a: Int, b: Int): Int",
+    "answer3": "fun sum(a: Int, b: Int)",
+    "correctAnswer": 1
+  },
+  {
+    "question": "11. What does the !! operator do?",
+    "answer1": "It converts any value to a non-null type and throws an exception if the value is in fact null",
+    "answer2": "It's the modulo operator in Kotlin, similar to Java's %",
+    "answer3": "it compares two values for identify rather than equality",
+    "correctAnswer": 0
+  },
+  {
+    "question": "12. What is the key difference between Iterable<T> and Sequence<T> in Kotlin?",
+    "answer1": "Sequences are processed sequentially, Iterables in parallel (multithreaded)",
+    "answer2": "Sequences are processed lazily, Iterables eagerly",
+    "answer3": "There is no difference, as Sequence<T> is Kotlin's term for Iterable<T>",
+    "correctAnswer": 1
+  },
+  {
+    "question": "13. Under which license is Kotlin available?",
+    "answer1": "MIT",
+    "answer2": "Apache 2",
+    "answer3": "GPL",
+    "correctAnswer": 1
+  },
+  {
+    "question": "14. An open source standalone database",
+    "answer1": "SQLite",
+    "answer2": "BackupHelper",
+    "answer3": "NetworkInfo",
+    "correctAnswer": 0
+  },
+  {
+    "question": "15. When Developing for the Android OS, Java byte code is compiled into what?",
+    "answer1": "Java Source Code",
+    "answer2": "Dalvik Application Code",
+    "answer3": "Dalvik Byte Code",
+    "correctAnswer": 2
+  }
+]
